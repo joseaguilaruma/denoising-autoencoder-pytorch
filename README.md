@@ -29,5 +29,6 @@ Para ejecutar este cuaderno en tu entorno local o en Google Colab:
 El modelo se entrenó mediante procesamiento en GPU (CUDA) con lotes de 1024 imágenes durante 200 épocas. A continuación se muestran los resultados visuales de la reconstrucción y el agrupamiento no supervisado en el espacio latente:
 
 *(Añade aquí tus imágenes)*
-![Evolución del Error](ruta-a-tu-grafica-de-error.png)
-![Espacio Latente (0 vs 1)](ruta-a-tu-espacio-latente.png)
+![Evolución del Error](suppor-images/error-image.png)
+![Espacio Latente (0 vs 1)](support-images/latent-space)
+![Espacio Latente (2 vs 3)](support-images/latent-space-2)
