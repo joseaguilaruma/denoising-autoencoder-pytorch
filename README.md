@@ -19,16 +19,10 @@ El modelo consta de neuronas lineales y se divide en dos fases:
 1.  **Encoder:** Comprime la entrada desde 784 píxeles pasando por capas ocultas de 512, 128 y 64 neuronas (con activaciones ReLU) hasta un **espacio latente de 8 dimensiones**.
 2.  **Decoder:** Reconstruye la imagen pasando del espacio latente (8) hacia capas de 64, 128 y 512 neuronas, finalizando en los 784 píxeles originales mediante una activación Sigmoid.
 
-## 🚀 Instalación y Ejecución
-Para ejecutar este cuaderno en tu entorno local o en Google Colab:
-1. Clona el repositorio: `git clone https://github.com/TU_USUARIO/denoising-autoencoder-pytorch.git`
-2. Instala los requerimientos básicos: `pip install torch torchvision scikit-learn matplotlib numpy tqdm`
-3. Ejecuta las celdas del archivo principal. El dataset de evaluación descargará las 10.000 imágenes de prueba automáticamente.
-
 ## 📈 Resultados Destacados
 El modelo se entrenó mediante procesamiento en GPU (CUDA) con lotes de 1024 imágenes durante 200 épocas. A continuación se muestran los resultados visuales de la reconstrucción y el agrupamiento no supervisado en el espacio latente:
 
 *(Añade aquí tus imágenes)*
-![Evolución del Error](suppor-images/error-image.png)
-![Espacio Latente (0 vs 1)](support-images/latent-space)
-![Espacio Latente (2 vs 3)](support-images/latent-space-2)
+![Evolución del Error](support-images/error-image.png)
+![Espacio Latente (0 vs 1)](support-images/latent-space.png)
+![Espacio Latente (2 vs 3)](support-images/latent-space-2.png)
